@@ -28,7 +28,7 @@ const HomePage = () => {
 	};
 
 	useEffect(() => {
-		fetchRecipes("chicken");
+		fetchRecipes("mom");
 	}, []);
 
 	const handleSearchRecipe = (e) => {
